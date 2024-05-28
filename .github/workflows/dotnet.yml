@@ -26,7 +26,9 @@ jobs:
       run: dotnet build --no-restore -c Release
     - name: Test
       run: dotnet test --verbosity normal
+    - name: List files
+      run: ls -la
     - name: Build nuget
-      run: dotnet pack --version-suffix ${{ secrets.GITHUB_RUN_ID }} -c Release --no-build
+      run: dotnet pack --version-suffix ${{ secrets.GITHUB_RUN_ID }} -c Release --no-build --output ./
     - name: Deploy nuget
       run: dotnet nuget push "*.nupkg" --api-key ${{ secrets.GITHUB_TOKEN }} --source https://api.nuget.org/v3/index.json

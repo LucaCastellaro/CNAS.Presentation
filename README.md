@@ -18,7 +18,7 @@ CNAS is an achronym for **C**lean .**N**ET **A**PI **S**ervice.
 
 With the Presentation library you can create a clean presentation layer, using minimal APIs.
 
-The idea is to create a nuget package for this library, to make it fast and easy to inlude in new projects.
+The idea is to create a nuget package for this library, to make it fast and easy to include in new projects.
 
 The nuget package will be publicly deployed on the nuget store.
 

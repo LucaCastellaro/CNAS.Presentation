@@ -5,7 +5,12 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CNAS.Presentation", "CNAS.Presentation\CNAS.Presentation.csproj", "{CDFBD1A7-A984-4B33-80D4-546E6AE36C9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CNAS.Presentation.Test", "CNAS.Presentation.Test\CNAS.Presentation.Test.csproj", "{4232FFA5-8713-421D-8E67-E632127F930E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CNAS.Presentation.Test", "CNAS.Presentation.Test\CNAS.Presentation.Test.csproj", "{4232FFA5-8713-421D-8E67-E632127F930E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementi di soluzione", "Elementi di soluzione", "{49A28CEF-6367-48D2-9B3B-F82CC8FBC2BB}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

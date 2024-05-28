@@ -29,6 +29,6 @@ jobs:
     - name: List files
       run: ls -la
     - name: Build nuget
-      run: dotnet pack CNAS.Presentation/CNAS.Presentation.csproj --version-suffix ${{ secrets.GITHUB_RUN_ID }} -c Release --no-build --output ./
+      run: dotnet pack --version-suffix ${{ env.GITHUB_RUN_ID }} -c Release --no-build --output ./
     - name: Deploy nuget
       run: dotnet nuget push "*.nupkg" --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json

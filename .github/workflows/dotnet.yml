@@ -25,7 +25,7 @@ jobs:
     - name: Build
       run: dotnet build --no-restore -c Release
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test --verbosity normal
     - name: Build nuget
       run: dotnet pack --version-suffix dev-${{ github.run_id }} -c Release --no-build --output ./
     - name: Deploy nuget

@@ -8,6 +8,7 @@
 		<VersionPrefix>0.0.1</VersionPrefix>
 		<Authors>Luca Castellaro</Authors>
 		<Product>CNAS.Presentation</Product>
+		<PackageReadmeFile>../README.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<ItemGroup>
